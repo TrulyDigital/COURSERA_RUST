@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    let mut message: String = String::from("Name: Alex, Height");
+    message.clear();
+    println!("{}", message);
 }
